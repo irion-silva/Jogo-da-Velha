@@ -60,6 +60,13 @@ public class Main {
                 break;
             }
         }
-        System.out.println("O "+jogo.Ganhou(Jogadas)+" venceu!");
+        //System.out.println("O "+jogo.Ganhou(Jogadas)+" venceu!");
+        if (jogo.Ganhou(Jogadas).equals("JOGADOR 1")) {
+            System.out.println("O "+jogo.Ganhou(Jogadas)+" venceu!");
+        } else if (jogo.Ganhou(Jogadas).equals("JOGADOR 2")) {
+            System.out.println("O "+jogo.Ganhou(Jogadas)+" venceu!");
+        } else {
+            System.out.println("EMPATOU");
+        }
     }
 }
