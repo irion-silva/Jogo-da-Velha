@@ -1,2 +1,4 @@
 # Jogo da Velha
- Jogo da Velha em Java
+ Jogo da Velha
+ ## Tecnologias Ultilizada:
+ Java
